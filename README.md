@@ -2,6 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+<<<<<<< HEAD
 In the project directory, you can run:
 
 ### `npm start`
@@ -66,3 +67,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+yo yo yo
+
+
+#### Winston is here guys deal with it.
+
+#### Light moves at the velocity of about 186,411 miles a second. One light-year equates to roughly 5,903,026,326,255 miles!!
+
+#### ZITA IS SOOOOOOO COOL!
+
+shay is the super genius!!! 
