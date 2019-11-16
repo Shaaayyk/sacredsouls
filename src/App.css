@@ -26,9 +26,6 @@ div#title a{
   text-decoration: none;
 }
 
-nav#title a{
-text-decoration: none;
-}
 nav#navbar{
   display: flex;
   justify-content: flex-end;
