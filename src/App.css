@@ -1,0 +1,31 @@
+#header{
+  background: #fcebcf;
+  display: flex;
+  position: sticky;
+}
+
+footer {
+  display: flex;
+  background: #c47054; 
+}
+
+div.information {
+  font-weight: bold;
+  color: white;
+  display: block;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+img#facebook{
+  margin-top: 0.2em;
+width: 2em;
+height: 2em;
+margin: 0.5em;
+}
+
+img#yelp{
+  margin-top: 0.2em;
+width: 2em;
+height: 2em;
+margin: 0.5em;
+}
