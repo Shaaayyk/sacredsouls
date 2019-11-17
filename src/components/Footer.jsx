@@ -15,7 +15,7 @@ export default function Footer() {
       </div>
 
       <div className="information">
-        <img id="facebook" src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-facebook-1.png&r=255&g=255&b=255" alt="facebook" />
+        <img id="facebook" src="https://res.cloudinary.com/dvysqqdqe/image/upload/v1573947022/facebook-icon_3x_ngvrv6.png" alt="facebook" />
         <img id="yelp" src="https://res.cloudinary.com/dvysqqdqe/image/upload/v1573943897/yelp-icon_3x_spd6h3.png" alt="yelp"/>
       </div>
     </footer>
