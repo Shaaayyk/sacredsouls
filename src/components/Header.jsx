@@ -14,16 +14,16 @@ export default function Header() {
 
       <nav id="navbar">
         <Link to="/classes">
-          <a>CLASSES</a>
+          CLASSES
         </Link>
         <Link to="/schedule">
-          <a>SCHEDULE</a>
+          SCHEDULE
         </Link>
         <Link to="/reiki">
-          <a>REIKI</a>
+          REIKI
         </Link>
         <Link to="/about">
-          <a>ABOUT</a>
+          ABOUT
           </Link>
       </nav>
 
