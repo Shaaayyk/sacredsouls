@@ -5,13 +5,14 @@ import Logo from '../images/Logo.svg';
 export default function Header() {
   return (
     <div id="header">
-      <img />
+      <Link to='/'>
+   <img src={Logo} alt='logo' />
+      </Link>
       <div id="title">
-          <img src={Logo} alt='logo' />
         <Link to="/">
           <h1 className="Sacred-Souls-Yoga">Sacred Souls Yoga Studio</h1>
           <p>Yoga Classes in Jersey City</p>
-      </Link>
+        </Link>
       </div>
 
       <nav id="navbar">
