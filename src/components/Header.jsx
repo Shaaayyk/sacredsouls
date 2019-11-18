@@ -1,15 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Logo from '../images/logo.png'
 
 export default function Header() {
   return (
     <div id="header">
-      <img />
+      <img src={Logo} />
       <div id="title">
-      <Link to="/">
+        <Link to="/">
           <h1 className="Sacred-Souls-Yoga">Sacred Souls Yoga Studio</h1>
           <p>Yoga Classes in Jersey City</p>
-      </Link>
+        </Link>
       </div>
 
       <nav id="navbar">
