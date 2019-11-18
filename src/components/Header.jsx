@@ -5,7 +5,9 @@ import Logo from '../images/logo.png'
 export default function Header() {
   return (
     <div id="header">
-      <img src={Logo} />
+      <Link to='/'>
+        <img src={Logo} />
+      </Link>
       <div id="title">
         <Link to="/">
           <h1 className="Sacred-Souls-Yoga">Sacred Souls Yoga Studio</h1>
