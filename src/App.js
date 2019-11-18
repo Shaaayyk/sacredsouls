@@ -1,15 +1,21 @@
 import React from "react";
 import "./App.css";
-// import { Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MainPage from "./components/MainPage";
+import Schedule from "./components/Schedule";
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <MainPage />
+      <Route exact path='/' render={() => (
+        <MainPage />
+      )} />
+      <Route path='/schedule' render={() => (
+        <Schedule />
+      )} />
       <Footer />
     </div>
   );
