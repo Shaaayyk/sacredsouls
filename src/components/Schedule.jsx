@@ -1,4 +1,5 @@
 import React from 'react'
+import DownArrow from '../images/down-arrow.png'
 // import moment from 'moment'
 
 export default function Schedule() {
@@ -6,14 +7,14 @@ export default function Schedule() {
   let date = newDate.getDate();
   let month = newDate.getMonth() + 1;
   let year = newDate.getFullYear();
-  
-  return (
-    <div>
 
+  return (
+    <div id='schedule'>
+      <p id='main-statement'>First time? Sign up for your class online, over the phone, or in-person. Drop-ins are welcome.</p>
       <div className="title">
         <ul>
           <li>Find a Class</li>
-         </ul>
+        </ul>
       </div>
 
       <div className="month">
@@ -21,7 +22,7 @@ export default function Schedule() {
           <li>November</li>
         </ul>
       </div>
-      
+
       <ul className="weekdays">
         <li>M</li>
         <li>T</li>
@@ -32,7 +33,7 @@ export default function Schedule() {
         <li>S</li>
       </ul>
 
-      <ul className="days">  
+      <ul className="days">
         <li>1</li>
         <li>2</li>
         <li>3</li>
@@ -42,9 +43,7 @@ export default function Schedule() {
         <li>7</li>
         <li>8</li>
         <li>9</li>
-        <li>
-          <span className="active">{date}</span>
-        </li>
+        <li>10</li>
         <li>11</li>
         <li>12</li>
         <li>13</li>
@@ -52,7 +51,9 @@ export default function Schedule() {
         <li>15</li>
         <li>16</li>
         <li>17</li>
-        <li>18</li>
+        <li>
+          <span className="active">{date}</span>
+        </li>
         <li>19</li>
         <li>20</li>
         <li>21</li>
@@ -73,13 +74,47 @@ export default function Schedule() {
           <li>Full Calendar</li>
           <li className="down">&#10094;</li>
           <input
-          type="date"
-          name="calendar"
-          id="calendar"
-        />
-          </ul>
+            type="date"
+            name="calendar"
+            id="calendar"
+          />
+        </ul>
       </div>
 
-  </div>
+      <h1 id='one-day'>Wednesday, November 20</h1>
+
+      <div id='class-detail-container'>
+        <div className='class-details'>
+          <h2 className='time'>5:30 PM - 6:00 PM</h2>
+          <div className='middle-details'>
+            <h2>Gentle/Meditative Yoga</h2>
+            <p>Komal Majmundar</p>
+            <h3>View Details <img src={DownArrow} /></h3>
+          </div>
+          <button>SIGN UP</button>
+        </div>
+
+        <div className='class-details'>
+          <h2 className='time'>5:30 PM - 6:00 PM</h2>
+          <div className='middle-details'>
+            <h2>Kids Yoga</h2>
+            <p>Komal Majmundar</p>
+            <h3>View Details <img src={DownArrow} /></h3>
+          </div>
+          <button>SIGN UP</button>
+        </div>
+
+        <div className='class-details'>
+          <h2 className='time'>6:30 PM - 7:30 PM</h2>
+          <div className='middle-details'>
+            <h2>Gentle/Meditative Yoga</h2>
+            <p>Komal Majmundar</p>
+            <h3>View Details <img src={DownArrow} /></h3>
+          </div>
+          <button>SIGN UP</button>
+        </div>
+
+      </div>
+    </div>
   )
 }
