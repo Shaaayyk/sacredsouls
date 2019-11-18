@@ -1,27 +1,20 @@
-import React from 'react';
-import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Schedule from './components/Schedule';
+import React from "react";
+import "./App.css";
+// import { Route } from 'react-router-dom';
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import MainPage from "./components/MainPage";
+import Schedule from "./components/Schedule";
 
-class App extends React.Component {
-  constructor(props) {
-    super(props)
-    
-  this.state = {
-  };
-  }
-  
-
-  render() {
-    return (
-      <div className="App">
-        <Header />
-        <Schedule />
-        <Footer />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="app">
+      <Header />
+      <MainPage />
+      <Schedule />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

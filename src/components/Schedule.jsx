@@ -68,6 +68,18 @@ export default function Schedule() {
         <li>31</li>
       </ul>
 
+      <div className="fullCalendar">
+        <ul>
+          <li>Full Calendar</li>
+          <li className="down">&#10094;</li>
+          <input
+          type="date"
+          name="calendar"
+          id="calendar"
+        />
+          </ul>
+      </div>
+
   </div>
   )
 }
