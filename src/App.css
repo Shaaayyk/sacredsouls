@@ -186,6 +186,17 @@
   align-self: start;
   grid-row: 2;
 }
+.yoga-buttons{
+  text-decoration: none;
+  color: var(--blueColor);
+  padding: 2px 50px;
+  margin: 0 .5rem;
+  font-size: 1.5em;
+  font-weight: 900;
+  justify-self: center;
+  align-self: start;
+  grid-row: 2; 
+}
 
 #classes {
   justify-self: end;
@@ -242,7 +253,16 @@
   display: grid;
 
 }
-
+.reiki-button{
+  text-decoration: none;
+  color: var(--blueColor);
+  padding: 2px 50px;
+  margin: 0 .5rem;
+  font-size: 1.5em;
+  font-weight: 900;
+  justify-self: center;
+  align-self: start;
+}
 .section-2 h2 {
   font-weight: 100;
   font-size: 4em;
@@ -514,5 +534,48 @@ body {font-family: Verdana, sans-serif;}
 }
 
 @media screen and (max-width: 290px) {
-  .weekdays li, .days li {width: 12.2%;}
+  .weekdays li, .days li {width: 12.2%;} 
+}
+
+/* Home screen */
+@media screen and (max-width: 375px) {
+  img{
+   margin-bottom: 5em;
+    margin-left: 5em;
+  }
+  #title {
+    margin-top: 3em;
+    margin-right: 8em;
+  } 
+  #navbar{
+    display: none;
+  }
+
+/* .info-1{
+  width: 0em;
+} */
+  .yoga-buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 9em;
+  margin-left: 1em;
+  }
+
+  .yoga-buttons a {
+    margin: 5%;
+  }
+    .reiki-button{
+      display: flex;
+      margin-left: 2em; 
+    }
+
+  .footer{
+    display: grid;
+    grid-template-columns: 1;
+    text-align: center;
+  }
+  .social-links{
+   margin: 0 auto;
+  }
 }
