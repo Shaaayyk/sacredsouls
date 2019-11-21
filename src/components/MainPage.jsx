@@ -9,7 +9,8 @@ export default function MainPage() {
           <h2>YOGA</h2>
                   <div className="yoga-buttons">
           <Link id='classes' to="">CLASSES</Link>
-          <Link id='private' to="">PRIVATE</Link>
+          <Link id='private' to="">SCHEDULE</Link>
+          </div>
         </div>
       </div>
 
@@ -18,8 +19,10 @@ export default function MainPage() {
           <h2>REIKI</h2>
           <div className="reiki-button">
           <Link to="">BOOK</Link>
-      </div>
         </div>
+       </div>
+     </div>
     </div>
   );
-}
+  
+    }
