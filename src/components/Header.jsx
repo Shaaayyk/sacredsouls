@@ -10,7 +10,7 @@ export default function Header() {
       </Link>
       <div id="title">
         <Link to="/">
-          <h1 className="Sacred-Souls-Yoga">Sacred Souls Yoga Studio</h1>
+          <h1>Sacred Souls Yoga Studio</h1>
           <p>Yoga Classes in Jersey City</p>
         </Link>
       </div>
