@@ -16,8 +16,10 @@ export default function MainPage() {
       <div className="section-2">
         <div className='info-2'>
           <h2>REIKI</h2>
+          <div className="reiki-button">
           <Link to="">BOOK</Link>
       </div>
+        </div>
     </div>
   );
 }
