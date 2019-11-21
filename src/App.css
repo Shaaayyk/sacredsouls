@@ -153,6 +153,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.53;
   margin-bottom: 4px;
 }
 
@@ -230,6 +231,7 @@
   height: 400px;
   margin-bottom: 4px;
   position: relative;
+  opacity: 0.53;
 }
 
 .info-2 {
@@ -568,10 +570,11 @@ text-align: center;
   text-transform: uppercase;
   width: 100%;
   height: 53px;
-  font-family: Raleway;
+  font-family: var(--fontPrime);
   font-size: 48px;
   text-align: center;
   color: #364652;
+  font-weight: 400;
 }
 
 .location p{
@@ -603,6 +606,7 @@ text-align: center;
   text-align: center;
   color: #364652;
   padding-top: 30px;
+  font-weight: 400;
 }
 
 .contact p{
