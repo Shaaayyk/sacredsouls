@@ -484,6 +484,7 @@ body {font-family: Verdana, sans-serif;}
   flex-wrap: wrap;
   justify-content: center;
   background-color: #f9f3ea;
+  min-height: 1500px;
 }
 
 .about-section-one{
@@ -493,7 +494,7 @@ body {font-family: Verdana, sans-serif;}
 
 .imgInfo{
   height: 808px;
-  width: 750px;
+  width: 500px;
   color: #364652;
   background: rgba(248,243,235,0.8);
   font-family: Raleway;
@@ -501,7 +502,7 @@ body {font-family: Verdana, sans-serif;}
   flex-wrap: wrap;
   justify-content: center;
   position: absolute;
-  left: 200px;
+  left: 140px;
 }
 
 .imgInfo .linebreak{
@@ -532,13 +533,12 @@ body {font-family: Verdana, sans-serif;}
   margin-bottom: 10px;
   color: #364652;
   font-family: Raleway;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 16px;
   }
 
 .aboutPic{
-  width: 1500px;
-  height: 808px;
+  width: 1000px;
+  height: 600px;
   background-image: url('./images/aboutbg.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -680,7 +680,7 @@ text-align: center;
 }
  
 
-/* ============================== ABOUT PAGE ================================================ */
+/* ============================== Classes PAGE ================================================ */
 
 #class-page {
   text-align: center;
