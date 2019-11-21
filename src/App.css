@@ -1018,6 +1018,9 @@ text-align: center;
    margin: 0 auto;
   }
 
+.class-details button{
+  width: 4em;
+}
 
 h2{
   font-size: 20px;
