@@ -16,6 +16,9 @@
   padding: 0;
 }
 
+.app{
+  font-family: 'Raleway', sans-serif;
+}
 /* ===================================== HEADER =================================== */
 
 #header{
@@ -59,7 +62,6 @@
 #navbar a{
   color: var(--charcoal-grey);
   text-decoration: none;
-  letter-spacing: 0.15em;
   display: inline-block;
   padding: 0.9em;
   position: relative;
@@ -439,7 +441,8 @@ body {font-family: Verdana, sans-serif;}
   color: white;
   font-size: 20px;
   background: #BD7055;
-  font-family: var(--fontPrime);
+  font-family: 'Raleway', sans-serif;
+font-weight: 600;
 }
 
 .month {
@@ -547,7 +550,8 @@ body {font-family: Verdana, sans-serif;}
   color: white;
   font-size: 20px;
   background: #BD7055;
-  font-family: var(--fontPrime);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
 }
 
 #class-detail-container {
@@ -580,6 +584,7 @@ body {font-family: Verdana, sans-serif;}
   font-size: 1.25rem;
   font-weight: 600;
   color: #364652;
+  font-family: inherit;
 }
 
 .class-details p {
@@ -623,8 +628,8 @@ body {font-family: Verdana, sans-serif;}
 }
 
 .imgInfo{
-  height: 700px;
-  width: 500px;
+  height: 808px;
+  width: 650px;
   color: #364652;
   background: rgba(248,243,235,0.8);
   font-family: Raleway;
@@ -645,9 +650,8 @@ body {font-family: Verdana, sans-serif;}
   color: #c47054;
   font-family: Raleway;
   font-size: 45px;
-  margin: 0 10%;
-  margin-bottom: 10%;
-  margin-top: 10%;
+  font-weight: 400;
+  margin-top: 40px;
 }
 
 .imgInfo h3{
@@ -780,9 +784,9 @@ text-align: center;
   height: 150px;
   width: 100%;
   text-align: center;
-  font-family: var(--fontPrime);
+  font-family: inherit;
   font-size: 14px;
-  font-weight: 900;
+  font-weight:600;
   color: var(--off-white);
 }  
 
@@ -1008,6 +1012,7 @@ text-align: center;
     grid-template-columns: 1;
     text-align: center;
   }
+  
   .social-links{
    margin: 0 auto;
   }
@@ -1015,5 +1020,5 @@ text-align: center;
 
 h2{
   font-size: 20px;
-}
+  font-family: inherit;
 }
