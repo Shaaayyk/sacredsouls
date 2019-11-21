@@ -318,7 +318,6 @@
 .yoga-buttons{
   text-decoration: none;
   color: var(--blueColor);
-  padding: 2px 50px;
   margin: 0 .5rem;
   font-size: 1.5em;
   font-weight: 900;
@@ -605,6 +604,7 @@ body {font-family: Verdana, sans-serif;}
   align-self: center;
   justify-self: center;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 /* ===================================== ABOUT =================================== */  
@@ -792,6 +792,8 @@ text-align: center;
 
 .facebook {
   margin: 0 8px;
+    width: 3em;
+    height: 3em;
 }
 
 .fa-yelp {
@@ -978,6 +980,7 @@ text-align: center;
 
   .yoga-buttons a {
     margin: 5%;
+    padding: 3%;
   }
   a#classes, a#private{
     background: var(--whiteColor);
@@ -990,6 +993,7 @@ text-align: center;
   }
   .section-2 a{
     background: var(--whiteColor);
+    padding: 20%;
   }
 
     .reiki-button{
@@ -1007,8 +1011,9 @@ text-align: center;
   .social-links{
    margin: 0 auto;
   }
-}
+
 
 h2{
   font-size: 20px;
+}
 }
