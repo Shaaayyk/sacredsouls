@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MainPage from "./components/MainPage";
 import Schedule from "./components/Schedule";
+import Hamburger from "./components/Hamburger";
 import ClassesPage from "./components/ClassesPage"
 import AboutPage from "./components/AboutPage";
 // import Calendar from "./components/Calendar";
@@ -12,6 +13,7 @@ import AboutPage from "./components/AboutPage";
 function App() {
   return (
     <div className="app">
+      <Hamburger />
       <Header />
       <Route exact path='/' render={() => (
         <MainPage />
