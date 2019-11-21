@@ -8,20 +8,21 @@ export default function MainPage() {
         <div className='info-1'>
           <h2>YOGA</h2>
           <div className="yoga-buttons">
-            <Link id='classes' to="">Classes</Link>
-            <Link id='private' to="">Private</Link>
-            </div>
+            <Link id='classes' to="">CLASSES</Link>
+            <Link id='private' to="">SCHEDULE</Link>
+          </div>
         </div>
       </div>
-
       <div className="section-2">
         <div className='info-2'>
           <h2>REIKI</h2>
           <div className="reiki-button">
-          <Link to="">Book</Link>
+            <Link to="">BOOK</Link>
           </div>
         </div>
       </div>
     </div>
+
   );
-}
+  
+    }
