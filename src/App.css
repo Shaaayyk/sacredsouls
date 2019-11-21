@@ -503,6 +503,131 @@ body {font-family: Verdana, sans-serif;}
 }
  
 
+/* ============================== ABOUT PAGE ================================================ */
+
+#class-page {
+  text-align: center;
+  background: #f9f3ea;
+  font-family: Raleway;
+}
+
+#class-page img {
+  width: 100%;
+}
+
+.class-title {
+  font-size: 3rem;
+  color: #364652;
+  font-weight: 400;
+  margin-top: 6.25rem;
+  margin-bottom: 2.9rem;
+}
+
+#class-list h2 {
+  color: #c47054;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+#prepare-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: left;
+}
+
+.prepare-single {
+  margin: 5% 20%;
+}
+
+.prepare-single h2 {
+ color: #c47054;
+ font-size: 1rem;
+ margin-bottom: 2%;
+}
+
+.prepare-single p {
+  color: #364652;
+  font-size: 1rem;
+}
+
+.price-title {
+  color: #c47054;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+#top-price-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.top-price-box {
+  border: 2px solid #364652;
+  margin-bottom: 4%;
+  width: 17rem;
+  height: 7.5rem;
+}
+
+#left-box {
+  margin-left: 52%;
+}
+
+#right-box {
+  margin-right: 52%;
+}
+
+.top-price-box h3 {
+  font-size: 1.5rem;
+  color: #364652;
+  font-weight: 600;
+  margin-top: 1.75rem;
+  margin-bottom: .5rem;
+}
+
+.top-price-box p {
+  font-size: 1.25rem;
+  color: #364652;
+  font-weight: bold;
+  margin: .25rem 0;
+}
+
+#bottom-price-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bottom-price-box {
+  border: 2px solid #364652;
+  margin: 0 1rem;
+  margin-bottom: 40%;
+  width: 17rem;
+  height: 12rem;
+}
+
+.bottom-price-box h3 {
+  font-size: 1.5rem;
+  color: #364652;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+}
+
+.bottom-price-box p {
+  font-size: 1.25rem;
+  color: #364652;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#fade {
+  color: #8c8b8c;
+  font-size: 1rem;
+}
+
 /* ========================== Add media queries for smaller screens ===================================== */
 @media screen and (max-width:720px) {
   .weekdays li, .days li {width: 13.1%;}
