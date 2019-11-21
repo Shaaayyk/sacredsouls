@@ -24,7 +24,7 @@
 #header{
   background: #f9f3ea;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   position: relative;
   top: 0;
@@ -36,7 +36,7 @@
 }
 
 #header img {
-  width: 50%;
+  width: 60%;
 }
 
 #header p {
@@ -56,7 +56,7 @@
 #navbar{
   display: flex;
   justify-content: flex-end;
-  margin-left: 20%; 
+  margin-left: 35%; 
 }
 
 #navbar a{
@@ -281,7 +281,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.53;
+  opacity: .8;
   background-color: #d8d8d8;
   width: 100%;
   height: 400px;
@@ -291,7 +291,7 @@
 .info-1 {
   background-color:var(--off-white);
   opacity: .8;
-  width: 600px;
+  width: 800px;
   height: 400px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -321,7 +321,7 @@
 .yoga-buttons{
   text-decoration: none;
   color: var(--blueColor);
-  margin: 0 .5rem;
+  margin-left: 15%;
   font-size: 1.5em;
   font-weight: 900;
   justify-self: center;
@@ -372,7 +372,7 @@
   height: 400px;
   margin-bottom: 4px;
   position: relative;
-  opacity: 0.53;
+  opacity: .8;
 }
 
 .info-2 {
@@ -380,7 +380,7 @@
   right: 0;
   background-color: #f9f3ea;
   opacity: .8;
-  width: 600px;
+  width: 800px;
   height: 400px;
   display: grid;
 
@@ -400,7 +400,7 @@
   font-size: 4em;
   justify-self: center;
   align-self: center;
-  margin-left: 2.5rem;
+  margin-left: 5rem;
   margin-top: 2rem;
 }
 
@@ -438,12 +438,13 @@ body {font-family: Verdana, sans-serif;}
 
 .title {
   padding: 20px 90px;
-  width: 100%;
+  width: 80%;
   color: white;
   font-size: 20px;
   background: #BD7055;
   font-family: 'Raleway', sans-serif;
-font-weight: 600;
+  font-weight: 600;
+  margin-left: 10%;
 }
 
 .month {
@@ -457,14 +458,15 @@ font-weight: 600;
 }
 
 .weekdays {
-  margin: 0;
+  margin: 0 10%;
   padding: 10px 0;
   background-color: #f9f3ea;
 }
 
 .weekdays li {
   display: inline-block;
-  width: 13.6%;
+  width: 10%;
+  margin: 0 2%;
   color: black;
   text-align: center;
   font-family: var(--fontPrime);
@@ -473,14 +475,16 @@ font-weight: 600;
 .days {
   padding: 10px 0;
   background: #f9f3ea;
-  margin: 0;
+  margin: 0 10%;
 }
+
 
 .days li {
   list-style-type: none;
   display: inline-block;
-  width: 13.6%;
+  width: 10%;
   text-align: center;
+  margin: 0 2%;
   margin-bottom: 5px;
   font-size: 15px;
   font-family: var(--fontPrime);
@@ -534,6 +538,7 @@ font-weight: 600;
 
 #schedule {
   background: #f9f3ea;
+  min-height: 1500px;
 }
 
 #main-statement {
@@ -547,12 +552,13 @@ font-weight: 600;
 
 #one-day {
   padding: 20px 90px;
-  width: 100%;
+  width: 80%;
   color: white;
   font-size: 20px;
   background: #BD7055;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
+  margin-left: 10%; 
 }
 
 #class-detail-container {
@@ -565,6 +571,8 @@ font-weight: 600;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   border-bottom: solid 2px #8c8b8c;
+  width: 80%; 
+  margin-left: 10%;
 }
 
 .time {
@@ -629,7 +637,7 @@ font-weight: 600;
 }
 
 .imgInfo{
-  height: 808px;
+  height: 600px;
   width: 650px;
   color: #364652;
   background: rgba(248,243,235,0.8);
@@ -653,6 +661,8 @@ font-weight: 600;
   font-size: 45px;
   font-weight: 400;
   margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 4.5%;
 }
 
 .imgInfo h3{
@@ -661,14 +671,14 @@ font-weight: 600;
   font-family: Raleway;
   font-size: 25px;
   font-weight: 600;
-  margin: 0 10%;
-  margin-bottom: 5%;
+  margin: 0 10% 0 15%;
+    margin-bottom: 5%;
 }
 
 .imgInfo p{
   width: 430px;
   height: 600px;
-  margin: 0 10%;
+  margin: 0 10% 0 15%;;
   margin-bottom: 10px;
   color: #364652;
   font-family: Raleway;
@@ -676,12 +686,11 @@ font-weight: 600;
   }
 
 .aboutPic{
-  width: 1000px;
+  width: 1500px;
   height: 600px;
   background-image: url('./images/aboutbg.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: -50px;
 }
 
 .mapArea{
@@ -699,7 +708,7 @@ font-weight: 600;
 
 .mapsize{
   width: 90%;
-  height: 90vh; 
+  height: 70vh; 
   margin-top: 60px;
 }
 
@@ -716,7 +725,7 @@ text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 10%;
 }
 
 .mapInfoLineBreak{
@@ -750,7 +759,7 @@ text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 10%;
   padding-bottom: 40px;
 }
 
@@ -877,16 +886,8 @@ text-align: center;
 .top-price-box {
   border: 2px solid #364652;
   margin-bottom: 4%;
-  width: 17rem;
+  width: 20rem;
   height: 7.5rem;
-}
-
-#left-box {
-  margin-left: 52%;
-}
-
-#right-box {
-  margin-right: 52%;
 }
 
 .top-price-box h3 {
@@ -904,6 +905,14 @@ text-align: center;
   margin: .25rem 0;
 }
 
+#left-box {
+  margin-left: 34rem;
+}
+
+#right-box {
+  margin-right: 34rem;
+}
+
 #bottom-price-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -911,9 +920,9 @@ text-align: center;
 
 .bottom-price-box {
   border: 2px solid #364652;
-  margin: 0 1rem;
   margin-bottom: 40%;
-  width: 17rem;
+  margin-left: 10%;
+  width: 24rem;
   height: 12rem;
 }
 

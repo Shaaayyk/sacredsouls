@@ -51,9 +51,7 @@ export default function Schedule() {
         <li>15</li>
         <li>16</li>
         <li>17</li>
-        <li>
-          <span className="active">{date}</span>
-        </li>
+        <li>18</li>
         <li>19</li>
         <li>20</li>
         <li>21</li>
@@ -81,7 +79,7 @@ export default function Schedule() {
         </ul>
       </div>
 
-      <h1 id='one-day'>Wednesday, November 20</h1>
+      <h1 id='one-day'>Friday, November 22</h1>
 
       <div id='class-detail-container'>
         <div className='class-details'>
@@ -98,6 +96,56 @@ export default function Schedule() {
           <h2 className='time'>5:30 PM - 6:00 PM</h2>
           <div className='middle-details'>
             <h2>Kids Yoga</h2>
+            <p>Komal Majmundar</p>
+            <h3>View Details <img src={DownArrow} /></h3>
+          </div>
+          <button>SIGN UP</button>
+        </div>
+
+        <div className='class-details'>
+          <h2 className='time'>6:30 PM - 7:30 PM</h2>
+          <div className='middle-details'>
+            <h2>Gentle/Meditative Yoga</h2>
+            <p>Komal Majmundar</p>
+            <h3>View Details <img src={DownArrow} /></h3>
+          </div>
+          <button>SIGN UP</button>
+        </div>
+
+        <div className='class-details'>
+          <h2 className='time'>6:30 PM - 7:30 PM</h2>
+          <div className='middle-details'>
+            <h2>Gentle/Meditative Yoga</h2>
+            <p>Komal Majmundar</p>
+            <h3>View Details <img src={DownArrow} /></h3>
+          </div>
+          <button>SIGN UP</button>
+        </div>
+
+        <div className='class-details'>
+          <h2 className='time'>6:30 PM - 7:30 PM</h2>
+          <div className='middle-details'>
+            <h2>Gentle/Meditative Yoga</h2>
+            <p>Komal Majmundar</p>
+            <h3>View Details <img src={DownArrow} /></h3>
+          </div>
+          <button>SIGN UP</button>
+        </div>
+
+        <div className='class-details'>
+          <h2 className='time'>6:30 PM - 7:30 PM</h2>
+          <div className='middle-details'>
+            <h2>Gentle/Meditative Yoga</h2>
+            <p>Komal Majmundar</p>
+            <h3>View Details <img src={DownArrow} /></h3>
+          </div>
+          <button>SIGN UP</button>
+        </div>
+
+        <div className='class-details'>
+          <h2 className='time'>6:30 PM - 7:30 PM</h2>
+          <div className='middle-details'>
+            <h2>Gentle/Meditative Yoga</h2>
             <p>Komal Majmundar</p>
             <h3>View Details <img src={DownArrow} /></h3>
           </div>
