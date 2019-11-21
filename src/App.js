@@ -6,6 +6,8 @@ import Header from "./components/Header";
 import MainPage from "./components/MainPage";
 import Schedule from "./components/Schedule";
 import ClassesPage from "./components/ClassesPage"
+import AboutPage from "./components/AboutPage";
+// import Calendar from "./components/Calendar";
 
 function App() {
   return (
@@ -20,6 +22,9 @@ function App() {
       <Route path='/schedule' render={() => (
         <Schedule />
       )} />
+      <Route path='/about' render={() => (
+        <AboutPage />
+      )}/>
       <Footer />
     </div>
   );

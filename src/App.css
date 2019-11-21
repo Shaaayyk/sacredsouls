@@ -186,6 +186,17 @@
   align-self: start;
   grid-row: 2;
 }
+.yoga-buttons{
+  text-decoration: none;
+  color: var(--blueColor);
+  padding: 2px 50px;
+  margin: 0 .5rem;
+  font-size: 1.5em;
+  font-weight: 900;
+  justify-self: center;
+  align-self: start;
+  grid-row: 2; 
+}
 
 #classes {
   justify-self: end;
@@ -242,7 +253,16 @@
   display: grid;
 
 }
-
+.reiki-button{
+  text-decoration: none;
+  color: var(--blueColor);
+  padding: 2px 50px;
+  margin: 0 .5rem;
+  font-size: 1.5em;
+  font-weight: 900;
+  justify-self: center;
+  align-self: start;
+}
 .section-2 h2 {
   font-weight: 100;
   font-size: 4em;
@@ -457,6 +477,163 @@ body {font-family: Verdana, sans-serif;}
   font-size: 1.2rem;
 }
 
+/* ===================================== ABOUT =================================== */  
+.aboutContainer{
+  height: 150vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f9f3ea;
+}
+
+.about-section-one{
+  display: flex;
+  justify-content: center;
+}
+
+.imgInfo{
+  height: 808px;
+  width: 750px;
+  color: #364652;
+  background: rgba(248,243,235,0.8);
+  font-family: Raleway;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  left: 200px;
+}
+
+.imgInfo .linebreak{
+ height: 25px;
+}
+
+.imgInfo h1{
+  width: 430px;
+  height: 20px;
+  color: #c47054;
+  font-family: Raleway;
+  font-size: 45px;
+  margin-top: 40px;
+}
+
+.imgInfo h3{
+  height: 20px;
+  width: 430px;
+  margin-bottom: -10px;
+  font-family: Raleway;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.imgInfo p{
+  width: 430px;
+  height: 600px;
+  margin-bottom: 10px;
+  color: #364652;
+  font-family: Raleway;
+  font-size: 20px;
+  line-height: 30px;
+  }
+
+.aboutPic{
+  width: 1500px;
+  height: 808px;
+  background-image: url('./images/aboutbg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -50px;
+}
+
+.mapArea{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1500px;
+  height: 700px;
+}
+
+.map{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.mapsize{
+  width: 90%;
+  height: 50vh; 
+  margin-top: 60px;
+}
+
+.aboutInfo{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+text-align: center;
+}
+
+.location{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.mapInfoLineBreak{
+  height: 20px;
+}
+
+.location h1{
+  text-transform: uppercase;
+  width: 100%;
+  height: 53px;
+  font-family: Raleway;
+  font-size: 48px;
+  text-align: center;
+  color: #364652;
+}
+
+.location p{
+  width: 389px;
+  height: 180px;
+  font-family: Raleway;
+  font-size: 20px;
+  text-align: center;
+  color: #364652;
+  line-height: 30px;
+}
+
+.contact{
+  width: 100%;
+  height: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contact h1{
+  text-transform: uppercase;
+  width: 100%;
+  height: 53px;
+  font-family: Raleway;
+  font-size: 48px;
+  text-align: center;
+  color: #364652;
+  padding-top: 30px;
+}
+
+.contact p{
+  width: 389px;
+  height: 100px;
+  font-family: Raleway;
+  font-size: 20px;
+  text-align: center;
+  color: #364652;
+  line-height: 30px;
+}
 /* ===================================== FOOTER =================================== */  
 
 .footer {
@@ -639,5 +816,52 @@ body {font-family: Verdana, sans-serif;}
 }
 
 @media screen and (max-width: 290px) {
-  .weekdays li, .days li {width: 12.2%;}
+  .weekdays li, .days li {width: 12.2%;} 
+}
+
+/* Home screen */
+@media screen and (max-width: 375px) {
+  img{
+   margin-bottom: 5em;
+    margin-left: 5em;
+  }
+  #title {
+    margin-top: 3em;
+    margin-right: 8em;
+  } 
+  #navbar{
+    display: none;
+  }
+
+/* .info-1{
+  width: 0em;
+} */
+  .yoga-buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 9em;
+  margin-left: 1em;
+  }
+
+  .yoga-buttons a {
+    margin: 5%;
+  }
+    .reiki-button{
+      display: flex;
+      margin-left: 2em; 
+    }
+
+  .footer{
+    display: grid;
+    grid-template-columns: 1;
+    text-align: center;
+  }
+  .social-links{
+   margin: 0 auto;
+  }
+}
+
+h2{
+  font-size: 20px;
 }
