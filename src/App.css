@@ -8,8 +8,6 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 *, *::before, *::after {
@@ -147,7 +145,126 @@
 } 
 
 /* ===================================== ^ HEADER ^ =================================== */  
- 
+
+/* =============================================== HAMBURGER MENU =============================================== */
+
+.hamburger {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  background-color: #209cee;
+}
+
+.hamMenu {
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  z-index: 2;
+  position: relative;
+  top: 0;
+}
+
+
+.hamMenu input {
+  display: block;
+  width: 40px;
+  height: 33px;
+  position: absolute;
+  top: -16px;
+  left: 6px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+}
+
+.hamMenu span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 4px;
+  background: #fff;
+  color: #fff;
+  border-radius: 5px;
+  position: relative;
+  top: 35px;
+  left: 100%;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: 
+  transform 0.4s ease-in-out,
+  background 0.4s ease-in-out,
+  opacity 0.55s ease;
+}
+
+/* allows for crossmark */
+
+.hamMenu span:nth-last-child(2){
+  transform-origin: 0% 100%;
+}
+
+.hamMenu input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-4px, -2px);
+  background: black;
+  z-index: 2;
+}
+
+.hamMenu input:checked ~ span:nth-last-child(3){
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.hamMenu input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/* ^ allows for crossmark ^ */
+
+.menu {
+  position: absolute;
+  top: -25%;
+  right: -40%;
+  width: 200px;
+  padding: 10px;
+  padding-top: 30px;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  border: solid 2px black;
+  transform: scale(0);
+  transition: 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.menu li {
+  list-style-type: none;
+  padding: 8px 0;
+  margin: 8px 0;
+  font-size: 22px;
+  display: block;
+  cursor: pointer;
+  color: black;
+  transition: ease-in-out 250ms;
+  font-family: var(--mainFont)
+}
+
+.menu li:hover {
+  color: black;
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.hamMenu input:checked ~ ul {
+  transform: scale(1);
+}
+
+/* =============================================== ^^ HAMBURGER MENU ^^ =============================================== */
 
 /* =============================================== SECTION 1 =============================================== */
 
@@ -477,8 +594,6 @@ body {font-family: Verdana, sans-serif;}
   background: var(--pinkish-brown);
   height: 150px;
   width: 100%;
-  position: relative;
-  bottom: 0;
   text-align: center;
   font-family: var(--fontPrime);
   font-size: 14px;
