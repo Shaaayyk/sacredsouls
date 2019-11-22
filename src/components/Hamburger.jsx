@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from '../images/Logo.svg';
+import Logo from "../images/logo@2x.png";
 
 export default function Hamburger() {
   return (
@@ -15,6 +15,7 @@ export default function Hamburger() {
         <span></span>
         <span></span>
         <span></span>
+        <p>MENU</p>
 
         <ul className="menu">
           <li>
