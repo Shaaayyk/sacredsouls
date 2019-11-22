@@ -312,7 +312,7 @@
   border: solid 2px var(--charcoal-grey);
   padding: 2px 50px;
   margin: 0 .5rem;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 900;
   justify-self: center;
   align-self: start;
@@ -409,7 +409,7 @@
   color: var(--charcoal-grey);
   border: solid 2px var(--charcoal-grey);
   padding: .2rem 4rem;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 900;
   justify-self: center;
   align-self: start;
@@ -586,6 +586,7 @@ body {font-family: Verdana, sans-serif;}
 .middle-details h3 img {
   height: .9rem;
   margin-left: 2.5%;
+  transform: rotate(-90deg);
 }
 
 .class-details h2 {
@@ -619,6 +620,7 @@ body {font-family: Verdana, sans-serif;}
   justify-self: center;
   font-size: 1.2rem;
   cursor: pointer;
+  color: #364652;
 }
 
 /* ===================================== ABOUT =================================== */  
@@ -815,9 +817,14 @@ text-align: center;
   color: #fff;
 }
 
+.facebook:hover {
+  transform: scale(1.4);
+  /* color: #A71C1C; */
+}
+
 .fa-yelp:hover {
   transform: scale(1.4);
-  color: #A71C1C;
+  /* color: #A71C1C; */
 }
  
 
@@ -944,6 +951,13 @@ text-align: center;
 #fade {
   color: #8c8b8c;
   font-size: 1rem;
+}
+
+#class-list h2 img {
+  height: .9rem;
+  width: 1%;
+  margin-left: 2.5%;
+  transform: rotate(-90deg);
 }
 
 /* ========================== Add media queries for smaller screens ===================================== */
