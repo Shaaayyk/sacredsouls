@@ -1,5 +1,7 @@
 import React from 'react'
 import DownDog from '../images/downward-dog.jpg'
+import DownArrow from '../images/down-arrow.png'
+
 
 export default function ClassesPage() {
   return (
@@ -7,12 +9,12 @@ export default function ClassesPage() {
       <img src={DownDog} />
       <h1 className='class-title'>YOGA CLASSES</h1>
       <div id='class-list'>
-        <h2>Hatha Yoga I</h2>
-        <h2>Hatha Yoga II</h2>
-        <h2>Core Yoga</h2>
-        <h2>Gentle/Meditative Yoga</h2>
-        <h2>Kids Yoga</h2>
-        <h2>Private Lessons</h2>
+        <h2>Hatha Yoga I <img src={DownArrow} /></h2>
+        <h2>Hatha Yoga II <img src={DownArrow} /></h2>
+        <h2>Core Yoga <img src={DownArrow} /></h2>
+        <h2>Gentle/Meditative Yoga <img src={DownArrow} /></h2>
+        <h2>Kids Yoga <img src={DownArrow} /></h2>
+        <h2>Private Lessons <img src={DownArrow} /></h2>
       </div>
       <h1 className='class-title'>HOW TO PREPARE FOR YOUR FIRST CLASS</h1>
       <div id='prepare-list'>

@@ -21,6 +21,7 @@ export default function Header() {
         <Link to="/schedule">
           SCHEDULE
         </Link>
+        <a href='#'>REIKI</a>
         <Link to="/about">
           ABOUT
           </Link>
